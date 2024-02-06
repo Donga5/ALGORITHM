@@ -1,0 +1,12 @@
+{
+    "C_Cpp.default.compilerPath": "C:\\aProgram\\program2\\MSYS2\\ucrt64\\bin\\gcc.exe",
+    "debug.terminal.clearBeforeReusing": true,
+    "terminal.explorerKind": "external",
+    "code-runner.runInTerminal": true,
+    "files.associations": {
+        "iostream": "cpp",
+        "string": "cpp",
+        "ostream": "cpp",
+        "vector": "cpp"
+    }
+}
