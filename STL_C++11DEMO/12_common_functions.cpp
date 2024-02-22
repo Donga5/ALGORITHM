@@ -4,7 +4,7 @@
 #include<ctime>
 using namespace std;
 
-//reverse(begin,end)翻转，左开右闭
+//reverse(begin,end)翻转,左闭右开
 void demo1()
 {
     vector<int> a({1,2,3,4,5,6,7,8,9});
