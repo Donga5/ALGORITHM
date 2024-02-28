@@ -7,3 +7,5 @@
 - `Ctrl + Shift + [` 将当前的代码块进行折叠，(fold region)`Ctrl + Shift + ]` 展开(unfold region)
 - `Ctrl+shift+N` 运行当前代码
 - `Ctrl+I `使用copilot
+
+# 代码编写时候的注意事项
