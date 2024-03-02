@@ -18,7 +18,7 @@ int main()
     {
         int x;
         scanf("%d",&x);
-        while(tt&&a[tt]>x)tt--;
+        while(tt&&a[tt]>=x)tt--;//注意是>=等于情况也需要进行删除
         if(tt)printf("%d ",a[tt]);
         else printf("-1 ");
         //将x入栈

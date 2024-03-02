@@ -9,7 +9,7 @@ using namespace std;
  *   - priority_queue<int,vector<int>,greater<int>> q;//最小堆
  * 
  * 2.注意
- * - 没有clear函数
+ * - 没有clear函数，可以重新初始化一个即可
  * - std::queue没有提供迭代器。这是因为std::queue是一种适配器容器，
  * 它提供了特定的接口（如push(), pop(), front(), back()等），这些接口是为了满足队列这种数据结构的特性，即“先进先出”（FIFO）。
  * 因此，它并没有提供像std::vector或std::deque那样的随机访问迭代器
