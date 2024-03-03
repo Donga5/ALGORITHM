@@ -1,6 +1,7 @@
 
 # 蓝桥杯备赛
 本项目是备赛蓝桥杯时候写的一些算法，主要是参考学习Acwing算法课程，可以参考学习一下.
+其他相关的一些知识参考[我的notion文档](https://donga5.notion.site/f660d51771b24f2484c6918481e8393d?pvs=4)
 
 ### Referecens
 - [Acwing官网](https://www.acwing.com/activity/content/introduction/11/)
