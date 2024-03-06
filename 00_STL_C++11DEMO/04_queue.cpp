@@ -63,14 +63,39 @@ void demo3()
     q1.push(33);
     cout<<q1.top()<<endl;
 
-    
-
 }
+
+
+void demo4()
+{
+    /**
+     * 堆里边存的是pair,
+     * 对于相同的数值，会进行冗余存储,所以下面的第二次和第三次输出是相同的
+    */
+    typedef pair<int,int> PIT;
+    priority_queue<PIT,vector<PIT>,greater<PIT>> q;
+    q.push({0,1});
+    q.push({1,2});
+    q.push({1,2});
+    cout<<q.size()<<endl;
+
+    auto t=q.top();q.pop();
+    cout<<t.first<<" "<<t.second<<endl;
+
+    t=q.top();q.pop();
+    cout<<t.first<<" "<<t.second<<endl;
+
+    t=q.top();q.pop();
+    cout<<t.first<<" "<<t.second<<endl;
+}
+
+
 int main()
 {
     // demo1();
     // demo2();
-    demo3();
+    //demo3();
+    demo4();
 
     return 0;
 }
