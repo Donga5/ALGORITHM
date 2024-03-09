@@ -7,8 +7,6 @@ using namespace std;
  * if(i%prime[j]==0)break; 的解释：
  * 这种情况下，prime[j]肯定是i的最小质因子（因为从小到大枚举），如果没有break，那么
  * prime[j]下次增大，再筛掉的下一个数，就不是用最小质因子筛掉了。
- * 
- * 
 */
 const int N=1e6+10;
 int prime[N],cnt;
