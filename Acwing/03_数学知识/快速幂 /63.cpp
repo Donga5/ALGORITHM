@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * 
+ * 876 快速幂求逆元
 */
 typedef long long LL;
 
