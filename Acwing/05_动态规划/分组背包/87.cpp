@@ -25,7 +25,7 @@ int main()
 
     for(int i=1;i<=n;i++)
         for(int j=m;j>0;j--)
-            for(int k=1;k<=s[i];k++)
+            for(int k=1;k<=s[i];k++)//当v[i][k]<=j 放到外边一层循环当中的时候，当v[i][k]不满足的时候循环就停止了！！！！！
                 if(v[i][k]<=j) f[j]=max(f[j],f[j-v[i][k]]+w[i][k]);//v[i][k]放到外层循环中是错误的
     
     cout<<f[m];
