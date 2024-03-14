@@ -2,6 +2,6 @@
 .vscode/
 # 忽略生成.exe文件
 *.exe
-./**/*.exe
+/**/*.exe
 test
 test.cpp
