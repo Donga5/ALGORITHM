@@ -1,7 +1,7 @@
 # 忽略vscode配置文件
 .vscode/
 # 忽略生成.exe文件
-.exe
+*.exe
 ./**/*.exe
-.test
-.test.cpp
+test
+test.cpp
