@@ -3,6 +3,7 @@
 ### Referecens
 - [Acwing官网](https://www.acwing.com/activity/content/introduction/11/)
 - [Acwing课程题解](https://www.cnblogs.com/littlehb/p/15393332.html)
+- [信息学奥赛一本通题解](https://www.cnblogs.com/bianchengmao/p/16712975.html)
 
 
 ---
