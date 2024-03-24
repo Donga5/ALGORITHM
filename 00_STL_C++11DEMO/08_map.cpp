@@ -36,13 +36,18 @@ void demo2(){
     unordered_multiset<int>s1;//底层实现是哈希表，支持重复
     unordered_map<string,int>m1;
     unordered_multimap<string,int>m2;;
-
+}
+void demo3()
+{
+    unordered_map<int,int>a;
+    a.insert(pair<int,int>(1,1));
     
 
 }
 int main()
 {
-    demo1();
+    // demo1();
+    demo3();
 
     return 0;
 }

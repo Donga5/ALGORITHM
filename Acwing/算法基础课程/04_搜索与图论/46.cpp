@@ -14,7 +14,7 @@ int n,m;
 const int N=110;
 
 int g[N][N];
-int st[N][N];//表示距离
+int st[N][N];//表                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     示距离
 int hh=0,tt=-1;//对头和队尾元素
 PIT q[N*N];//队列
 PIT pre[N][N];
