@@ -4,7 +4,6 @@ using namespace std;
 /**
  * 837:连通块中点的数量
  * 并查集，动态地维护每个集合的数量
- * 
 */
 const int N=1e5+10;
 int p[N],sz[N];
