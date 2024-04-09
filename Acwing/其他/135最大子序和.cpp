@@ -23,7 +23,9 @@ int main()
     LL res=-(1<<31);
     // cout<<res<<endl;
 
-    int hh=0,tt=0;
+    int hh=0,tt=0; //实际上已经把s[0]也就是q[0]=0放进去了
+    //所以此时队列实际上是不空的
+    //如果这里的tt初始化为-1,那么第一个放入的就是s[1]了
     for(int i=1;i<=n;i++)
     {
         if(i-m>q[hh])hh++;
