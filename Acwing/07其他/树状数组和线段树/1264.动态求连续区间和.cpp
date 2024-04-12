@@ -5,6 +5,7 @@ using namespace std;
 
 /**
  * 1264动态求连续区间和，树状数组写法
+ * 单点修改，区间求和
 */
 const int N=1e6+10;
 struct Edge
