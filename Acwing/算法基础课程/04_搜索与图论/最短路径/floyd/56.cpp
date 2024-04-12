@@ -20,8 +20,8 @@ void floyd()
                 d[i][j]=min(d[i][j],d[i][k]+d[k][j]);
 }
 int main()
-{
-    cin>>n>>m>>k;
+{                                                                                                                                                           
+      cin>>n>>m>>k;
     for(int i=1;i<=n;i++)
         for(int j=1;j<=n;j++)
             if(i==j)d[i][j]=0;//取消掉了自环
